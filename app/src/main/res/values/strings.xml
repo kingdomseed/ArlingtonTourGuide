@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Arlington Adventures</string>
+    <string name="category_food">Food</string>
+    <string name="category_fun">Fun</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_history">History</string>
+</resources>
