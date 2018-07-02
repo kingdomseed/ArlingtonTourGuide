@@ -3,19 +3,21 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/secondaryColorLight</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
     </style>
 
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColor">@android:color/white</item>
-        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorColor">@color/primaryTextColor</item>
+        <item name="tabSelectedTextColor">@color/primaryTextColor</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name ="tabBackground">@color/secondaryColorLight</item>
     </style>
 
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:textColor">#A8A19E</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
     </style>
 
 </resources>

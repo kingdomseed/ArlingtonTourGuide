@@ -25,7 +25,14 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_guide_listview, container, false);
 
         locations = new ArrayList<>();
-        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.ic_launcher_background));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+
 
         LocationAdapter itemsAdapter = new LocationAdapter(getActivity(), locations);
 

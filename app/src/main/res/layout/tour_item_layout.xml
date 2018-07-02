@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/primaryTextColor"
     android:orientation="vertical">
 
     <ImageView
@@ -11,11 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:background="@color/colorAccent"
         android:contentDescription="@string/image_content_description"
-        tools:src="@mipmap/ic_launcher" />
+        tools:src="@drawable/forkinroad" />
 
     <TextView
         android:id="@+id/nameText"
@@ -24,7 +24,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         tools:text="Sample Overview Text" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         tools:text="Sample Overview Text" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         tools:text="Main Details Text" />
 
 </LinearLayout>
