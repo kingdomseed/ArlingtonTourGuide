@@ -3,14 +3,14 @@
     <string name="category_food">Food</string>
     <string name="category_fun">Fun</string>
     <string name="category_culture">Culture</string>
-    <string name="category_history">History</string>
+    <string name="category_shopping">Shopping</string>
     <string name="image_content_description">Image of location.</string>
     <string name="details_tool">Main Details Text</string>
     <string name="overview_tool">Sample Overview Text</string>
     <string name="title_tool">Sample Title Text</string>
     <string name="fork_title">Fork in the Road</string>
     <string name="bethany_title">Bethany Cafe</string>
-    <string name="istanbull_title">Istanbull Grill</string>
+    <string name="istanbull_title">Istanbul Grill</string>
     <string name="old_west_title">Old West Cafe</string>
     <string name="fork_overview">$$ | American | Lunch, Dinner</string>
     <string name="bethany_overview">$$ | Chinese | Lunch, Dinner</string>
@@ -18,6 +18,34 @@
     <string name="old_west_overview">$$ | American | Breakfast, Lunch</string>
     <string name="fork_details">Located in an old shopping center off Fielder Rd, Fork in the Road is a rare gem. Come for the Crackeroni, stay for the incredible sandwiches!</string>
     <string name="bethany_details">Right off Cooper near UTA and Arlington High School is this gem. Incredible orange chicken and boba at a great price!!</string>
-    <string name="instabull_details">The incredibly atmospheric Instanbull Grill is off South Cooper Street near Sublett. Try the Turkish Coffee!!</string>
+    <string name="instabull_details">The incredibly atmospheric Istanbul Grill is off South Cooper Street near Sublett. Try the Turkish Coffee!!</string>
     <string name="old_west_details">An incredible pancake and breakfast house with a great brunch menu. Try the blueberry pancakes!!</string>
+    <string name="six_flags_title">Six Flags Over Texas</string>
+    <string name="six_flags_overview">$$$ | Theme Park</string>
+    <string name="six_flags_details">The original Six Flags amusement park with low prices to get in and tons of roller coasters to explore!</string>
+    <string name="freeplay_title">Free Play Arlington </string>
+    <string name="freeplay_overview">$ | Arcade | Food</string>
+    <string name="freeplay_details">Come pay one price to play all the classic arcade games of your childhood! Grab a bite to eat or host a party!</string>
+    <string name="hurricane_title">Hurricane Harbor</string>
+    <string name="hurricane_overview">$$$ | Water Park</string>
+    <string name="hurricane_details">Experience the most incredible water slides, lazy river, and incredible surfing waves of the worlds greatest water park!</string>
+    <string name="cowboys_title">AT&amp;T Stadium</string>
+    <string name="cowboys_overview">$$$ | Sports Stadium</string>
+    <string name="cowboys_details">Come watch Americas football team, host a major event, or get a tour and DFWs largest stadium.</string>
+    <string name="fine_art_title">Arlington Museum of Art</string>
+    <string name="fine_art_overview">Free | Museum</string>
+    <!-- Details taken from:  https://www.arlington.org/listings/arlington-museum-of-art/70/ -->
+    <string name="fine_art_details">The Arlington Museum of Art is dedicated to champion creativity and to provide access to art for the cultural enrichment and economic development of our community.</string>
+    <string name="music_title">Arlington Music Hall</string>
+    <string name="music_overview">$$ | Live Music</string>
+    <!-- Details taken from:  https://www.arlington.org/listings/arlington-music-hall/575/ -->
+    <string name="music_details">Nestled in the heart of beautiful downtown Arlington amid some of the best restaurants in town and just a few blocks from Arlington Museum of Arts is one of the premier live music venues in the DFW Metroplex: Arlington Music Hall.</string>
+    <string name="highlands_title">The Arlington Highlands</string>
+    <string name="highlands_overview">Varies | Lifestyle Center</string>
+    <!-- Details taken from:https://arlingtonhighlands.com -->
+   <string name="highlands_details">Arlington Highlands Lifestyle Center. Shop, Dine, Work, Play, Stay - in central DFW Metroplex location. Bring the Family. Tourist Attractions Nearby</string>
+   <string name="parksmall_title">The Parks Mall</string>
+   <string name="parksmall_overview">Varies | Mall</string>
+   <!-- Details taken from:  https://www.theparksmallarlington.com/en.html -->
+    <string name="parksmall_details">Planning a visit to the “Best Big City” in the South? Include a trip to the most exciting lifestyle shopping center in the area - The Parks Mall at Arlington. Indulge in more than 170 specialty stores, and fit a film into your spree at the onsite AMC Theatres. Or, enjoy a kids’ party in the play area that features a carousel and NHL-size ice skating ring.</string>
 </resources>

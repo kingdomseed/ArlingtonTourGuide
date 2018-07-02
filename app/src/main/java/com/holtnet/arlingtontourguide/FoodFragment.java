@@ -10,7 +10,6 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class FoodFragment extends Fragment {
 
     private List<Location> locations;

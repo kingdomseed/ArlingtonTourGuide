@@ -8,15 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class HistoryFragment extends Fragment {
+public class ShoppingFragment extends Fragment {
 
     private List<Location> locations;
 
-    public HistoryFragment() {
+    public ShoppingFragment() {
         // Required empty public constructor
     }
 
@@ -27,10 +26,8 @@ public class HistoryFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_guide_listview, container, false);
 
         locations = new ArrayList<>();
-        locations.add(new Location(getString(R.string.fork_title), getString(R.string.fork_overview), getString(R.string.fork_details), R.drawable.forkintheroad));
-        locations.add(new Location(getString(R.string.bethany_title), getString(R.string.bethany_overview), getString(R.string.bethany_details), R.drawable.bethany));
-        locations.add(new Location(getString(R.string.istanbull_title), getString(R.string.instabull_overview), getString(R.string.instabull_details), R.drawable.istanbulgrill));
-        locations.add(new Location(getString(R.string.old_west_title), getString(R.string.old_west_overview), getString(R.string.old_west_details), R.drawable.oldwestcafe));
+        locations.add(new Location(getString(R.string.highlands_title), getString(R.string.highlands_overview), getString(R.string.highlands_details), R.drawable.highlands));
+        locations.add(new Location(getString(R.string.parksmall_title), getString(R.string.parksmall_overview), getString(R.string.parksmall_details), R.drawable.parksmall));
 
         LocationAdapter itemsAdapter = new LocationAdapter(getActivity(), locations);
 

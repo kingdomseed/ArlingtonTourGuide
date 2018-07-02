@@ -24,10 +24,8 @@ public class CultureFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_guide_listview, container, false);
 
         locations = new ArrayList<>();
-        locations.add(new Location(getString(R.string.fork_title), getString(R.string.fork_overview), getString(R.string.fork_details), R.drawable.forkintheroad));
-        locations.add(new Location(getString(R.string.bethany_title), getString(R.string.bethany_overview), getString(R.string.bethany_details), R.drawable.bethany));
-        locations.add(new Location(getString(R.string.istanbull_title), getString(R.string.instabull_overview), getString(R.string.instabull_details), R.drawable.istanbulgrill));
-        locations.add(new Location(getString(R.string.old_west_title), getString(R.string.old_west_overview), getString(R.string.old_west_details), R.drawable.oldwestcafe));
+        locations.add(new Location(getString(R.string.fine_art_title), getString(R.string.fine_art_overview), getString(R.string.fine_art_details), R.drawable.museum));
+        locations.add(new Location(getString(R.string.music_title), getString(R.string.music_overview), getString(R.string.music_details), R.drawable.music));
 
         LocationAdapter itemsAdapter = new LocationAdapter(getActivity(), locations);
 

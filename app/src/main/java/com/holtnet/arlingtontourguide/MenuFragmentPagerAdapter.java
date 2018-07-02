@@ -5,7 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-
 public class MenuFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
@@ -29,7 +28,7 @@ public class MenuFragmentPagerAdapter extends FragmentPagerAdapter {
             return new CultureFragment();
         }
         else {
-            return new HistoryFragment();
+            return new ShoppingFragment();
         }
     }
 
@@ -42,7 +41,7 @@ public class MenuFragmentPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return context.getString(R.string.category_culture);
         } else {
-            return context.getString(R.string.category_history);
+            return context.getString(R.string.category_shopping);
         }
     }
 
