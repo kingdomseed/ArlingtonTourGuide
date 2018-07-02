@@ -1,18 +1,15 @@
 package com.holtnet.arlingtontourguide;
 
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.model.LatLng;
-
 public class Location {
 
     private String locationName;
-    private String locationPrice;
+    private String locationOverview;
     private String locationDetails;
     private int locationImageResourceID;
 
-    public Location(String locationName, String locationPrice, String locationDetails, int locationImageResourceID) {
+    public Location(String locationName, String locationOverview, String locationDetails, int locationImageResourceID) {
         this.locationName = locationName;
-        this.locationPrice = locationPrice;
+        this.locationOverview = locationOverview;
         this.locationDetails = locationDetails;
         this.locationImageResourceID = locationImageResourceID;
     }
@@ -21,8 +18,8 @@ public class Location {
         return locationName;
     }
 
-    public String getLocationPrice() {
-        return locationPrice;
+    public String getLocationOverview() {
+        return locationOverview;
     }
 
     public String getLocationDetails() {

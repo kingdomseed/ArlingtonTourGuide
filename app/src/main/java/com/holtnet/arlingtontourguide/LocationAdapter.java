@@ -38,7 +38,7 @@ public class LocationAdapter extends ArrayAdapter {
         nameTextview.setText(currentLocaiton.getLocationName());
 
         TextView overviewTextview = listItemView.findViewById(R.id.overviewText);
-        overviewTextview.setText(currentLocaiton.getLocationPrice());
+        overviewTextview.setText(currentLocaiton.getLocationOverview());
 
         TextView detailsTextview = listItemView.findViewById(R.id.detailsText);
         detailsTextview.setText(currentLocaiton.getLocationDetails());

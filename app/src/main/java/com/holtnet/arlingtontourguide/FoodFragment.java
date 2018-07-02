@@ -25,7 +25,7 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_guide_listview, container, false);
 
         locations = new ArrayList<>();
-        locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
+        locations.add(new Location("Fork in the Road", "$$ | American | Lunch, Dinner", "Nestled in an old shopping center off Field Rd, Fork in the Road is a rare gem. Come for the Crackeroni, stay for the incredible sandwiches.!", R.drawable.forkinroad));
         locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
         locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));
         locations.add(new Location("Sydney", "$$$", "Duh!", R.drawable.forkinroad));

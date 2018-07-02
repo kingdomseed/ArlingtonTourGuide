@@ -10,10 +10,8 @@
         android:id="@+id/locationImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
         android:scaleType="fitStart"
         android:adjustViewBounds="true"
-        android:background="@color/colorAccent"
         android:contentDescription="@string/image_content_description"
         tools:src="@drawable/forkinroad" />
 
@@ -24,6 +22,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
+        android:textAllCaps="true"
+        android:textSize="24sp"
         android:textColor="@color/colorPrimaryDark"
         tools:text="Sample Overview Text" />
 
@@ -34,6 +34,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="4dp"
+        android:textAllCaps="true"
+        android:textSize="16sp"
         android:textColor="@color/colorPrimaryDark"
         tools:text="Sample Overview Text" />
 
@@ -47,5 +49,10 @@
         android:layout_marginBottom="8dp"
         android:textColor="@color/colorPrimaryDark"
         tools:text="Main Details Text" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/secondaryColorLight"/>
 
 </LinearLayout>
