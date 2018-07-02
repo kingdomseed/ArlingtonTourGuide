@@ -25,7 +25,7 @@
         android:textAllCaps="true"
         android:textSize="24sp"
         android:textColor="@color/colorPrimaryDark"
-        tools:text="Sample Overview Text" />
+        tools:text="@string/title_tool" />
 
     <TextView
         android:id="@+id/overviewText"
@@ -37,7 +37,7 @@
         android:textAllCaps="true"
         android:textSize="16sp"
         android:textColor="@color/colorPrimaryDark"
-        tools:text="Sample Overview Text" />
+        tools:text="@string/overview_tool" />
 
     <TextView
         android:id="@+id/detailsText"
@@ -48,7 +48,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp"
         android:textColor="@color/colorPrimaryDark"
-        tools:text="Main Details Text" />
+        tools:text="@string/details_tool" />
 
     <ImageView
         android:layout_width="match_parent"

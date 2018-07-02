@@ -5,4 +5,19 @@
     <string name="category_culture">Culture</string>
     <string name="category_history">History</string>
     <string name="image_content_description">Image of location.</string>
+    <string name="details_tool">Main Details Text</string>
+    <string name="overview_tool">Sample Overview Text</string>
+    <string name="title_tool">Sample Title Text</string>
+    <string name="fork_title">Fork in the Road</string>
+    <string name="bethany_title">Bethany Cafe</string>
+    <string name="istanbull_title">Istanbull Grill</string>
+    <string name="old_west_title">Old West Cafe</string>
+    <string name="fork_overview">$$ | American | Lunch, Dinner</string>
+    <string name="bethany_overview">$$ | Chinese | Lunch, Dinner</string>
+    <string name="instabull_overview">$$$ | Mediterranean | Lunch, Dinner</string>
+    <string name="old_west_overview">$$ | American | Breakfast, Lunch</string>
+    <string name="fork_details">Located in an old shopping center off Fielder Rd, Fork in the Road is a rare gem. Come for the Crackeroni, stay for the incredible sandwiches!</string>
+    <string name="bethany_details">Right off Cooper near UTA and Arlington High School is this gem. Incredible orange chicken and boba at a great price!!</string>
+    <string name="instabull_details">The incredibly atmospheric Instanbull Grill is off South Cooper Street near Sublett. Try the Turkish Coffee!!</string>
+    <string name="old_west_details">An incredible pancake and breakfast house with a great brunch menu. Try the blueberry pancakes!!</string>
 </resources>

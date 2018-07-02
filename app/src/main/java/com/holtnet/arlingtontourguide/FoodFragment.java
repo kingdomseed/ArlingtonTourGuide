@@ -25,10 +25,10 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_guide_listview, container, false);
 
         locations = new ArrayList<>();
-        locations.add(new Location("Fork in the Road", "$$ | American | Lunch, Dinner", "Located in an old shopping center off Fielder Rd, Fork in the Road is a rare gem. Come for the Crackeroni, stay for the incredible sandwiches!", R.drawable.forkintheroad));
-        locations.add(new Location("Bethany Cafe", "$$ | Chinese | Lunch, Dinner", "Right off Cooper near UTA and Arlington High School is this gem. Incredible orange chicken and boba at a great price!!", R.drawable.bethany));
-        locations.add(new Location("Istanbull Grill", "$$$ | Mediterranean | Lunch, Dinner ", "The incredibly atmospheric Instanbull Grill is off South Cooper Street near Sublett. Try the Turkish Coffee!!", R.drawable.istanbulgrill));
-        locations.add(new Location("Old West Cafe", "$$ | American | Breakfast, Lunch", "An incredible pancake and breakfast house with a great brunch menu. Try the blueberry pancakes!!", R.drawable.oldwestcafe));
+        locations.add(new Location(getString(R.string.fork_title), getString(R.string.fork_overview), getString(R.string.fork_details), R.drawable.forkintheroad));
+        locations.add(new Location(getString(R.string.bethany_title), getString(R.string.bethany_overview), getString(R.string.bethany_details), R.drawable.bethany));
+        locations.add(new Location(getString(R.string.istanbull_title), getString(R.string.instabull_overview), getString(R.string.instabull_details), R.drawable.istanbulgrill));
+        locations.add(new Location(getString(R.string.old_west_title), getString(R.string.old_west_overview), getString(R.string.old_west_details), R.drawable.oldwestcafe));
 
         LocationAdapter itemsAdapter = new LocationAdapter(getActivity(), locations);
 
